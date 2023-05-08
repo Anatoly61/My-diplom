@@ -165,12 +165,12 @@ body {
 
 .banner {
   display: block;
-  padding-bottom: 120px;
+  padding-bottom: 145px;
   position: relative;
   background: url(../images/banner-bg.jpg)
     no-repeat center;
   background-size: cover;
-  margin-bottom: 64px;
+  margin-bottom: 60px;
   z-index: 1;
 
 }
@@ -195,7 +195,8 @@ body {
 }
 
 .logo { 
-  margin-top: 28px;
+  width: 179px;
+  margin: -7px 0px 0px 11px;
 }
 
 .header {
@@ -225,8 +226,7 @@ h1 {
 }
 
 .big-title {
-  margin: 0;
-  margin-top: 50px;
+  margin: 110px 35px 0px 0px;
   text-transform: uppercase;
 }
 
@@ -253,18 +253,18 @@ h1 {
 .trends-header {
     display: flex;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     flex-direction: column;
     align-items: center;
 }
 
-.trends-header__title {
-    font-size: 20px;
-    margin: 0;
+.trends-header-title {
+    font-size: 18px;
+    margin: 0px 45px 0px 0px;
     text-transform: uppercase;
 }
 
-.trends-header__title::after {
+.trends-header-title::after {
     content: '';
     display: block;
     margin: 10px auto 0 auto;
@@ -342,25 +342,25 @@ h1 {
     padding-left: 0;
 }
 
-.trend-categories__item-link {
+.trend-categories-item-link {
     text-decoration: none;
     color: #b59f5b;
     margin-right: 20px;
 }
 
-.trend-categories__item-link:hover {
+.trend-categories-item-link:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.trend-info__title {
+.trend-info-title {
     margin-top: 11px;
     margin-bottom: 0;
     font-size: 20px;
     line-height: 24px;
 }
 
-.trend-info__title:hover {
+.trend-info-title:hover {
     color: #b59f5b;
     cursor: pointer;
 }
@@ -657,32 +657,32 @@ h1 {
     margin-left: auto;
 }
 
-.shop_items {
+.shop-items {
     display: flex;
     justify-content: space-between;  
 }
 
-.shop_item {
+.shop-item {
     flex: 0 1 29%;
     display: flex;
     flex-direction: column;
 }
 
-.shop_title {
+.shop-title {
     margin: 0 0 8px 0;
 }
 
-.shop_img {
+.shop-img {
     margin: 0 auto;
     width: 87%;
     display: block;
 }
 
-.shop_item:last-child {
+.shop-item:last-child {
     margin-right: 0;
 }
 
-.shop_wrapper {
+.shop-wrapper {
     position: relative;
     z-index: 1;
     margin-top: -30px;
@@ -691,30 +691,30 @@ h1 {
     flex: 1;
 }
 
-.shop_content {
+.shop-content {
     font-size: 15px;
     line-height: 22px;
     font-weight: 400;
     color: #0f0d0e;
 }
 
-.shop_content_link {
+.shop-content-link {
     text-decoration: none;
     color: #b59f5b;
 }
 
-.shop_content_link:hover {
+.shop-content-link:hover {
     text-decoration: underline;
 }
 
-.shop_price_wrapper {
+.shop-price-wrapper {
     margin-top: 23px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.shop_value {
+.shop-value {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -722,7 +722,7 @@ h1 {
     line-height: 1;
 }
 
-.shop_sale {
+.shop-sale {
     font-size: 14px;
     font-weight: 700;
     text-decoration: line-through;
@@ -780,15 +780,15 @@ h1 {
     padding: 30px 15px;
 }
 
-.social-icon_dribbble {
+.social-icon-dribbble {
     background-image: url(../svg/001-dribbble.svg);
 }
 
-.social-icon_pinterest {
+.social-icon-pinterest {
     background-image: url(../svg/001-pinterest.svg);
 }
 
-.social-icon_tumblr {
+.social-icon-tumblr {
     background-image: url(../svg/003-tumblr.svg);
 }
 
