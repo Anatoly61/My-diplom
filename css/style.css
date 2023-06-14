@@ -165,12 +165,12 @@ body {
 
 .banner {
   display: block;
-  padding-bottom: 145px;
+  padding-bottom: 133px;
   position: relative;
   background: url(../images/banner-bg.jpg)
     no-repeat center;
   background-size: cover;
-  margin-bottom: 60px;
+  margin-bottom: 59px;
   z-index: 1;
   background-position: top;
 
@@ -227,12 +227,12 @@ h1 {
 }
 
 .big-title {
-  margin: 107px 11px 0px 0px;
+  margin: 112px -15px 0px 0px;
   text-transform: uppercase;
 }
 
 .big-title-i {
-  margin: 15px 11px 0px 0px;
+  margin: 16px -15px 0px 0px;
   text-transform: uppercase;
 }
 
@@ -242,9 +242,10 @@ h1 {
 
 .menu {
   text-transform: uppercase;
-  margin: 27px 0px 0px 524px;
+  margin: 30px 0px 0px 524px;
   font-size: 13px;
 }
+
 
 .trends {
     display: flex;
@@ -258,14 +259,14 @@ h1 {
 .trends-header {
     display: flex;
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 6px;
     flex-direction: column;
     align-items: center;
 }
 
 .trends-header-title {
     font-size: 20px;
-    margin: -8px 5px 0px 0px;
+    margin: -4px 5px 0px 0px;
     text-transform: uppercase;
 }
 
@@ -287,7 +288,7 @@ h1 {
     display: flex;
     width: 25%;
     min-height: 320px;
-    margin:0px 0px 67px 0px;
+    margin:22px 0px 73px 0px;
     box-sizing: border-box;
 }
 
@@ -331,8 +332,8 @@ h1 {
 .trend-info {
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px 9px 31px 17px;
+    padding: 23px 23px 15px 25px;
     box-sizing: border-box;
     color: #ffffff;
     border: 3px solid #b59f5b;
@@ -342,7 +343,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin:0;
-    font-size: 14px;
+    font-size: 13px;
     list-style-type: none;
     padding-left: 0;
 }
@@ -378,7 +379,7 @@ h1 {
 .date-title {
   opacity: 50%;
   display: inline-block;
-  margin-right: 40px;
+  margin: 7px 6px 9px 0px;
   font-weight: 400;
   font-size: 12px;
 }
@@ -398,8 +399,8 @@ h1 {
   text-transform: uppercase;
   font-weight: 700;
   color: #b59f5b;
-  font-size: 14px;
-  margin-right: 19px;
+  font-size: 13px;
+  margin-right: 21px;
 }
 
 .link-tag {
@@ -411,12 +412,12 @@ h1 {
 }
 
 .tags {
-  margin-bottom: -12px;
+  margin-bottom: -14px;
 }
 
 .block {
   display: flex;
-  margin: -8px 0px 27px -37px;
+  margin: -25px 0px 48px -33px;
   width: 820px;
 }
 
@@ -431,23 +432,23 @@ h1 {
 }
 
 .text {
-  margin: -6px 0px 0px -3px;
+  margin: 9px 0px 0px -7px;
 }
 
 .text-d {
-  margin-top: 41px;
+  margin-top: 39px;
   font-size: 15px;
   font-weight: 400;
 }
 
 .side-bar {
-  width: 272px;
+  width: 276px;
   /*background-color: #f4f7f6;*/
   margin-left: auto;
 }
 
 .side-news-header {
-  margin: -29px 33px 0px 0px;
+  margin: -28px 28px 0px 0px;
 }
 
 .side-news-header-title {
@@ -469,7 +470,7 @@ h1 {
   display: block;
   width: 70px;
   height: 70px;
-  margin: -2px 0px -32px -21px;
+  margin: -5px 0px 5px -17px;
 }
 
 .side-block {
@@ -478,7 +479,9 @@ h1 {
 }
 
 .side-date {
-  margin-top: -8px;
+  display: flex;
+  margin: -60px -15px 46px 20px;
+  
 }
 
 .side-title {
@@ -488,6 +491,7 @@ h1 {
 }
 
 .side-date-title {
+  display: flex;
   opacity: 50%;
   font-weight: 400;
   font-size: 12px;
