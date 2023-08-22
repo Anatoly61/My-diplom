@@ -35,6 +35,7 @@ body {
 
 .pop-up {
   position: fixed;
+  margin: 0px 0px 0px -5px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -48,9 +49,10 @@ body {
 
 .pop-up-container {
   position: relative; 
-  width: 30%;
+  width: 18%;
   max-width: 700px;
-  padding: 10px;
+  margin: 39px 1px 8px -15px;
+  padding: 48px;
   background-color: white;
 }
 
@@ -58,14 +60,22 @@ body {
   font-size: 12px;
 }
 
+.section-title {
+  margin: 19px 0px 44px 81px;
+}
+
 .form-row {
-  margin-bottom: 20px;
+  margin: -2px -11px 29px -14px;
+}
+
+.form-label {
+  margin: 0px 0px 0px -5px;
 }
 
 .question-select {
   display: inline-block;
   width: 100%;
-  margin-top: 10px;
+  margin: 14px -6px 9px 0px;
   padding: 13px 10px;
   font-size: inherit;
   color: grey;
@@ -122,7 +132,7 @@ body {
   min-height: 100px;
   resize: none;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: -1px;
   font: inherit;
   color: grey;
   background-color: #f3f2f2;
@@ -137,6 +147,7 @@ body {
 
 .send-button {
   width: 100%;
+  margin: 43px 33px -51px -12px;
   padding: 15px;
   font-size: inherit;
   font-weight: bold;
@@ -155,7 +166,7 @@ body {
 
 .popup-close {
   position: absolute;
-  top: -20px;
+  top: -27px;
   right: 0;
   width: 15px;
   height: 15px;
@@ -165,12 +176,12 @@ body {
 
 .banner {
   display: block;
-  padding-bottom: 133px;
+  padding-bottom: 126px;
   position: relative;
   background: url(../images/banner-bg.jpg)
     no-repeat center;
   background-size: cover;
-  margin-bottom: 59px;
+  margin-bottom: 61px;
   z-index: 1;
   background-position: top;
 
@@ -197,7 +208,7 @@ body {
 
 .logo { 
   width: 179px;
-  margin: 29px 0px 0px 17px;
+  margin: 29px 0px 0px 31px;
 }
 
 .header {
@@ -227,12 +238,12 @@ h1 {
 }
 
 .big-title {
-  margin: 112px -15px 0px 0px;
+  margin: 106px -25px -3px 0px;
   text-transform: uppercase;
 }
 
 .big-title-i {
-  margin: 16px -15px 0px 0px;
+  margin: 17px -23px 0px 0px;
   text-transform: uppercase;
 }
 
@@ -242,7 +253,7 @@ h1 {
 
 .menu {
   text-transform: uppercase;
-  margin: 30px 0px 0px 524px;
+  margin: 25px 0px 0px 522px;
   font-size: 13px;
 }
 
@@ -259,14 +270,14 @@ h1 {
 .trends-header {
     display: flex;
     width: 100%;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     flex-direction: column;
     align-items: center;
 }
 
 .trends-header-title {
     font-size: 20px;
-    margin: -4px 5px 0px 0px;
+    margin: -1px -21px 0px 0px;
     text-transform: uppercase;
 }
 
@@ -288,7 +299,7 @@ h1 {
     display: flex;
     width: 25%;
     min-height: 320px;
-    margin:22px 0px 73px 0px;
+    margin: 26px -15px 69px 1px;
     box-sizing: border-box;
 }
 
@@ -332,8 +343,8 @@ h1 {
 .trend-info {
     display: flex;
     flex-direction: column;
-    margin: 0px 9px 31px 17px;
-    padding: 23px 23px 15px 25px;
+    margin: 0px 0px 38px 17px;
+    padding: 24px 104px 11px 34px;
     box-sizing: border-box;
     color: #ffffff;
     border: 3px solid #b59f5b;
@@ -379,7 +390,7 @@ h1 {
 .date-title {
   opacity: 50%;
   display: inline-block;
-  margin: 7px 6px 9px 0px;
+  margin: 8px 4px 7px 0px;
   font-weight: 400;
   font-size: 12px;
 }
@@ -412,12 +423,12 @@ h1 {
 }
 
 .tags {
-  margin-bottom: -14px;
+  margin: 8px 0px -14px 3px;
 }
 
 .block {
   display: flex;
-  margin: -25px 0px 48px -33px;
+  margin: -16px 0px 40px -11px;
   width: 820px;
 }
 
@@ -432,7 +443,7 @@ h1 {
 }
 
 .text {
-  margin: 9px 0px 0px -7px;
+  margin: 3px 8px 0px -14px;
 }
 
 .text-d {
@@ -442,13 +453,13 @@ h1 {
 }
 
 .side-bar {
-  width: 276px;
+  width: 271px;
   /*background-color: #f4f7f6;*/
-  margin-left: auto;
+  margin: 32px 0px 0px 160px;
 }
 
 .side-news-header {
-  margin: -28px 28px 0px 0px;
+  margin: -49px 0px 42px 0px;
 }
 
 .side-news-header-title {
@@ -470,7 +481,7 @@ h1 {
   display: block;
   width: 70px;
   height: 70px;
-  margin: -5px 0px 5px -17px;
+  margin: -6px 0px 0px 0px;
 }
 
 .side-block {
@@ -479,8 +490,7 @@ h1 {
 }
 
 .side-date {
-  display: flex;
-  margin: -60px -15px 46px 20px;
+  margin: -78px 1px 55px 86px;
   
 }
 
@@ -491,14 +501,14 @@ h1 {
 }
 
 .side-date-title {
-  display: flex;
-  opacity: 50%;
-  font-weight: 400;
-  font-size: 12px;
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    color: #888888;
 }
 
 .search {
-  margin-top: 60px;
+  margin-top: 84px;
 }
 
 .field {
@@ -536,16 +546,15 @@ h1 {
 }
 
 .subscription {
-  margin-top: 62px;
-  margin-bottom: 62px;
+  margin: 102px 11px 58px 1px;
 }
 
 .field-s {
   box-sizing: border-box;
   width: 100%;
   border: none;
-  padding: 18px 25px 18px 18px;
-  margin: 0;
+  padding: 17px;
+  margin: -12px 0px 1px 0px;
   display: inline-block;
   vertical-align: middle;
   font-size: 13px;
@@ -559,13 +568,13 @@ h1 {
 
 .sub {
   width: 100%;
-  height: 48px;
-  margin-top: 18px;
+  height: 47px;
+  margin: 11px 0px 0px 0px;
   background-color: #b59f5b;
   cursor: pointer;
   border: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
 }
 
@@ -581,14 +590,11 @@ h1 {
 .tagss {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -7px;
+    margin-top: -9px;
 }
 
 .side-tags {
-  margin-top: 17px;
-  margin-left: 0px;
-  margin-right: 11px;
-  list-style-type: none;
+  margin: 3px 13px 11px 7px;
 }
 
 .side-tag {
@@ -598,10 +604,10 @@ h1 {
   text-decoration: none;
   font-family: Open Sans, sans-serif;
   color: #0f0d0e;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   border: 3px solid #f4f3f1;
-  padding: 5px 11px;
+  padding: 0px 6px;
   text-transform: uppercase;
 }
 
@@ -612,7 +618,7 @@ h1 {
 
 .temes {
     display: block;
-    padding-top: 35px;
+    padding-top: 18px;
 }
 
 .themes {
@@ -624,8 +630,7 @@ h1 {
 }
 
 .theme-item {
-    margin-top: 14px;
-    margin-left: 3px;
+    margin: 8px 0px 1px 0px;
 }
 
 .theme-item::after {
@@ -675,7 +680,7 @@ h1 {
 }
 
 .shop-item {
-    flex: 0 1 29%;
+    flex: 0 1 31%;
     display: flex;
     flex-direction: column;
 }
@@ -773,7 +778,7 @@ h1 {
 .footer-address {
     margin-bottom: 20px;
     background-color: #f4f7f6;
-    padding: 30px;
+    padding: 14px;
 }
 
 .footer-list {
@@ -789,7 +794,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 16px;
     background-position: center;
-    padding: 30px 15px;
+    padding: 24px 13px;
 }
 
 .social-icon-dribbble {
